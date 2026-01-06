@@ -3,8 +3,8 @@ package user
 import (
 	"fmt"
 
-	mdb "github.com/unifuu/ditto2/backend/go/gin/db/mongo"
-	"github.com/unifuu/ditto2/backend/go/gin/model/user"
+	mdb "github.com/unifuu/ditto2/backend/go/db/mongo"
+	"github.com/unifuu/ditto2/backend/go/model/user"
 	mgo "github.com/unifuu/lapras/monggo"
 	"golang.org/x/crypto/bcrypt"
 

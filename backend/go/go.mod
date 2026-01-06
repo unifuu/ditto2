@@ -1,4 +1,4 @@
-module github.com/unifuu/ditto2/backend/go/gin
+module github.com/unifuu/ditto2/backend/go
 
 go 1.24.0
 

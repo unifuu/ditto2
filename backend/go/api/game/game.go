@@ -7,10 +7,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/unifuu/ditto2/backend/go/gin/model/game"
-	"github.com/unifuu/ditto2/backend/go/gin/mw"
-	game_svc "github.com/unifuu/ditto2/backend/go/gin/svc/game"
-	"github.com/unifuu/ditto2/backend/go/gin/util"
+	"github.com/unifuu/ditto2/backend/go/model/game"
+	"github.com/unifuu/ditto2/backend/go/mw"
+	game_svc "github.com/unifuu/ditto2/backend/go/svc/game"
+	"github.com/unifuu/ditto2/backend/go/util"
 
 	"github.com/gin-gonic/gin"
 )

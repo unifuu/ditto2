@@ -3,8 +3,8 @@ package handler
 import (
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
-	"github.com/unifuu/ditto2/backend/go/gin/api/game"
-	"github.com/unifuu/ditto2/backend/go/gin/api/user"
+	"github.com/unifuu/ditto2/backend/go/api/game"
+	"github.com/unifuu/ditto2/backend/go/api/user"
 )
 
 func Init(e *gin.Engine) {
