@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	go_redis "github.com/go-redis/redis/v8"
-	"github.com/unifuu/hitotose/backend/go/gin/db/redis"
+	"github.com/unifuu/ditto2/backend/go/gin/db/redis"
 )
 
 // Check user authority

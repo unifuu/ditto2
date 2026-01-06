@@ -1,5 +1,24 @@
+ditto2
+gin
+Icon
+Icon?
+
 .DS_Store
 .vscode
 .env
 
 *.webp
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+bin/
+out/
+dist/
+
+*.test
+*.out
+/vendor/

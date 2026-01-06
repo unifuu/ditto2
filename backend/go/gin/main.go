@@ -6,9 +6,9 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	handler "github.com/unifuu/hitotose/backend/go/gin/api"
-	mongo "github.com/unifuu/hitotose/backend/go/gin/db/mongo"
-	"github.com/unifuu/hitotose/backend/go/gin/db/redis"
+	handler "github.com/unifuu/ditto2/backend/go/gin/api"
+	mongo "github.com/unifuu/ditto2/backend/go/gin/db/mongo"
+	"github.com/unifuu/ditto2/backend/go/gin/db/redis"
 )
 
 func main() {

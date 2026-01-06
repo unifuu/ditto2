@@ -3,9 +3,9 @@ package user
 import (
 	"fmt"
 
-	mdb "github.com/unifuu/hitotose/backend/go/gin/db/mongo"
-	"github.com/unifuu/hitotose/backend/go/gin/model/user"
-	mgo "github.com/unifuu/monggo"
+	mdb "github.com/unifuu/ditto2/backend/go/gin/db/mongo"
+	"github.com/unifuu/ditto2/backend/go/gin/model/user"
+	mgo "github.com/unifuu/lapras/monggo"
 	"golang.org/x/crypto/bcrypt"
 
 	"go.mongodb.org/mongo-driver/bson"

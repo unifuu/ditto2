@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"time"
 
-	mdb "github.com/unifuu/hitotose/backend/go/gin/db/mongo"
-	"github.com/unifuu/hitotose/backend/go/gin/model/game"
+	mdb "github.com/unifuu/ditto2/backend/go/gin/db/mongo"
+	"github.com/unifuu/ditto2/backend/go/gin/model/game"
 
 	mgo "github.com/unifuu/monggo"
 

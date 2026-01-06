@@ -6,12 +6,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/unifuu/hitotose/backend/go/gin/db/redis"
-	"github.com/unifuu/hitotose/backend/go/gin/model/user"
+	"github.com/unifuu/ditto2/backend/go/gin/db/redis"
+	"github.com/unifuu/ditto2/backend/go/gin/model/user"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
-	user_svc "github.com/unifuu/hitotose/backend/go/gin/svc/user"
+	user_svc "github.com/unifuu/ditto2/backend/go/gin/svc/user"
 )
 
 const (

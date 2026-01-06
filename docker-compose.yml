@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  react:
-    container_name: react
+  vue:
+    container_name: vue
     build:
-      context: ./frontend/react
+      context: ./frontend/vuetify
       dockerfile: Dockerfile
     ports:
       - "80:80"

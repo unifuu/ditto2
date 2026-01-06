@@ -1,3 +1,0 @@
-# Hitotose-Vuetify
-
-## References
