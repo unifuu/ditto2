@@ -61,7 +61,12 @@
           <v-container fluid>
             <v-card>
               <v-layout>
-                <v-navigation-drawer v-model="drawer" expand-on-hover rail>
+                <v-navigation-drawer
+                  v-model="drawer"
+                  expand-on-hover
+                  rail
+                  width="200"
+                >
                   <v-list>
                     <v-list-item
                       v-if="token"
@@ -667,16 +672,19 @@ const filteredGames = (status: string | undefined) => {
   if (!games?.value) {
     return [];
   }
-  if (status === undefined || status === "") {
-    return games.value;
-  }
-  return games.value.filter((game) => game.status === status);
+  return games.value.filter((game) => {
+    const statusMatch = !status || game.status === status;
+    const platformMatch =
+      platform.value === "All" || game.platform === platform.value;
+    return statusMatch && platformMatch;
+  });
 };
 
 const fetchGames = async () => {
   try {
     const baseURL = `/api/game/pages?page=${currentPage.value}`;
     let queryParam = status.value ? `&status=${status.value}` : "";
+    queryParam += platform.value ? `&platform=${platform.value}` : "";
     queryParam += keyword.value ? `&keyword=${keyword.value}` : "";
     const response = await fetch(`${baseURL}${queryParam}`);
     if (!response.ok) {
