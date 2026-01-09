@@ -2,9 +2,11 @@
 
 A full-stack gamelog app built with Go and Vue.
 
-``` bash
-make dev
-make stop
-make logs
-make rebuild
+<img src="assets/screenshot.png" width="40%" />
+
+```bash
+docker-compose up -d --build
+
+# localhost:3000/login
+# admin/admin
 ```

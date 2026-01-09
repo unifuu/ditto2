@@ -1,13 +1,13 @@
 ditto2
-gin
+
 Icon
 Icon?
+
+/assets/images/games
 
 .DS_Store
 .vscode
 .env
-
-*.webp
 
 *.exe
 *.exe~

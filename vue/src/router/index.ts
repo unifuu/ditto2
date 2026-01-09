@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Game from '../components/Game.vue'
 import Login from '../components/Login.vue'
-import Rank from '../components/Rank.vue'
 
 const routes = [
   { path: '/:pathMatch(.*)*', redirect: '/' },
@@ -16,14 +15,9 @@ const routes = [
     component: Game,
   },
   {
-    path: '/fuu',
+    path: '/login',
     name: 'Login',
     component: Login,
-  },
-  {
-    path: '/rank',
-    name: 'Rank',
-    component: Rank,
   }
 ]
 
