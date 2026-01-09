@@ -4,7 +4,7 @@ services:
   vue:
     container_name: vue
     build:
-      context: ./frontend/vuetify
+      context: ./vue
       dockerfile: Dockerfile
     ports:
       - "80:80"
@@ -14,7 +14,7 @@ services:
   gin:
     container_name: gin
     build:
-      context: ./backend/go/gin
+      context: ./gin
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
