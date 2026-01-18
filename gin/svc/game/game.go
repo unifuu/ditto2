@@ -8,7 +8,7 @@ import (
 	mdb "github.com/unifuu/ditto2/gin/db/mongo"
 	"github.com/unifuu/ditto2/gin/model/game"
 
-	mgo "github.com/unifuu/monggo"
+	mgo "github.com/unifuu/lapras/monggo"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
